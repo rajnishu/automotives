@@ -1,0 +1,157 @@
+body{
+     margin: 0;
+     padding: 0;
+     background-color: #000;
+}
+.menu{
+     text-align: left;
+}
+
+.menu ul {
+     display: inline-flex;
+     list-style: none;
+}
+
+.menu ul li{
+     margin: 25px;
+     position: relative;
+}
+
+.menu ul li a {
+     padding: 8px;
+     color: rgb(238, 235, 236); 
+     font-size: 20px;  
+     text-decoration: none;
+     border-bottom: 1.5px solid #fff;
+     border-radius: 10px;
+     position: relative;
+} 
+
+.search{
+    top: 24px;
+    right: 20px;
+    position: absolute;
+    size: 20px;
+    /* border: 2px solid yellow; */
+
+}
+
+.search input{
+    font-size: 20px;
+    border: 1px solid whitesmoke;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+
+.content h2{
+    font-size: 50px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 10%;
+    text-align: left;
+    /* text-shadow: 14px 14px 14px #fff; */
+}
+
+.content b {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.photo{
+    width: 100%;
+    float: right;
+}
+
+.photo img {
+    width: 98.5%;
+    margin-top: -350px;
+    margin-left: 50px;
+    animation: run 2s linear 1;
+    /* border-radius: 30%; */
+}
+
+.font{
+    right: 12px;
+    bottom: -45px;
+    position: absolute;
+
+}
+
+.font ul i{
+     list-style: none;
+     margin-top: 15px;
+     text-align: center;
+
+}
+
+.font ul a i{
+    font-size: 15px;
+    color: #fff;
+    border: 3px solid rgb(212, 0, 255);
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.button{
+    position: absolute;
+    /* color: yellow; */
+    top: 92%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    /* list-style: none; */
+}
+.btn{
+    color: whitesmoke;
+    border: 3px solid rgb(225, 0, 255);
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #800000;
+}
+
+
+.content h2:hover{
+    text-shadow: 14px 14px 14px #fff;
+}
+
+.btn:hover{
+    background: #ffa500;
+}
+
+
+.font ul a i:hover{
+    background: #ffa500; 
+}
+
+.search input:hover{
+    background-color: whitesmoke;
+}
+
+@keyframes run{
+    0%{
+        transform: translate(-100px,-100px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+} 
+    
+.footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 95%;  
+    background-color: black;  
+    color: wheat;  
+    text-align: center; 
+}
